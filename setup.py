@@ -3,11 +3,11 @@
 from setuptools import setup
 
 setup(
-    name='apns2',
-    version='0.7.2',
+    name='apns2-up',
+    version='0.7.3',
     packages=['apns2'],
     install_requires=[
-        'hyper>=0.7',
+        'hyper-up>=0.8',
         'PyJWT>=2.0.0',
         'cryptography>=1.7.2',
     ],
@@ -17,10 +17,10 @@ setup(
             'pytest',
         ],
     },
-    url='https://github.com/Pr0Ger/PyAPNs2',
+    url='https://github.com/vasanski/PyAPNs2',
     license='MIT',
-    author='Sergey Petrov',
-    author_email='me@pr0ger.prg',
+    author='Eduard Vasanski',
+    author_email='eduard.vasanski@gmail.com',
     classifiers=[
         'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
